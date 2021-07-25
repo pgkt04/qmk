@@ -1,2 +1,2 @@
 # qmk
- my gmk settings
+ my qmk settings
