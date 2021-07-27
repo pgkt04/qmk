@@ -1,3 +1,5 @@
 # qmk
- my qmk settings
- fixes debounce settings for the dz60rgb pcb
+ my qmk settings  
+ Includes binary fixes debounce settings for the dz60rgb pcb.
+ Flash the via version onto your firmware.
+ 
