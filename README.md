@@ -1,6 +1,5 @@
 # qmk
  My qmk settings.  
- and yes i also spend too much money on keyboards.  
 
 ## configs
 also a bunch of configs for some boards i use.
