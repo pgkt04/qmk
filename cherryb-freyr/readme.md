@@ -17,7 +17,7 @@ New Freyr software update
   
 Installation instructions: 
   
-1/ Quit VIA first
-2/ Put your keyboard's PCB into reset/bootloader mode and run QMK Toolbox ( you can enter reset/bldmode by shorting 2 pins in the middle of the 10 pins debug pinout behind the PCB - they are near to arrow keys )
-3/ Click on "Clear EEPROM" inside QMK Toolbox, and then browse to the *.hex file that you ve downloaded, flash it
-4/ Re-plug the keyboard if nessesary, have fun.
+1. Quit VIA first
+2. Put your keyboard's PCB into reset/bootloader mode and run QMK Toolbox ( you can enter reset/bldmode by shorting 2 pins in the middle of the 10 pins debug pinout behind the PCB - they are near to arrow keys )
+3. Click on "Clear EEPROM" inside QMK Toolbox, and then browse to the *.hex file that you ve downloaded, flash it
+4. Re-plug the keyboard if nessesary, have fun.
