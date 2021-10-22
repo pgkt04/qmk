@@ -9,3 +9,4 @@ also a bunch of configs for some boards i use.
 - nk65
 - cherryb freyr
 - realforce tkl
+- rama kara
