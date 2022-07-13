@@ -162,17 +162,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // https://github.com/manna-harbour/miryoku_qmk/blob/bdb9fd81e8aa2afb3882f7c0f6ae2d3ba448ac93/users/manna-harbour_miryoku/config.h#L23-L33
 // Mouse key speed and acceleration.
-#undef MOUSEKEY_DELAY
-#define MOUSEKEY_DELAY          0
-#undef MOUSEKEY_INTERVAL
-#define MOUSEKEY_INTERVAL       16
-#undef MOUSEKEY_WHEEL_DELAY
-#define MOUSEKEY_WHEEL_DELAY    0
-#undef MOUSEKEY_MAX_SPEED
-#define MOUSEKEY_MAX_SPEED      5
-#undef MOUSEKEY_TIME_TO_MAX
-#define MOUSEKEY_TIME_TO_MAX    56
 
 
-
+#define MK_KINETIC_SPEED  
+#define MOUSEKEY_DELAY	5
+#define MOUSEKEY_INTERVAL	10
+#define MOUSEKEY_MOVE_DELTA	5
+#define MOUSEKEY_INITIAL_SPEED	100
+#define MOUSEKEY_BASE_SPEED	1000
+#define MOUSEKEY_DECELERATED_SPEED	400
+#define MOUSEKEY_ACCELERATED_SPEED	3000
+#define MOUSEKEY_WHEEL_INITIAL_MOVEMENTS	16
+#define MOUSEKEY_WHEEL_BASE_MOVEMENTS	32
+#define MOUSEKEY_WHEEL_ACCELERATED_MOVEMENTS	48
+#define MOUSEKEY_WHEEL_DECELERATED_MOVEMENTS	8
 
