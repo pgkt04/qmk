@@ -26,16 +26,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [1] = LAYOUT_voyager(
     _______,      _______,          _______,          _______,          _______,          _______,                                          _______,          _______,          _______,       KC_MINUS,     KC_EQUAL,    KC_GRAVE,
     _______, _______,        _______,          _______,        _______,         _______,                                        _______,   _______,           KC_UP,           KC_LBRC,       KC_RBRC,       KC_BSLS,
-    _______,        _______, _______,        KC_ASTR,        KC_LPRN,        KC_RPRN,                                        _______, KC_LEFT, KC_DOWN, KC_RIGHT,        _______,        _______,
+    _______,        _______, _______,        KC_ASTR,        KC_LPRN,        KC_RPRN,                                        _______, KC_LEFT, KC_DOWN, KC_RIGHT,        _______,        KC_QUOTE,
     _______, _______, KC_LBRC,        KC_RBRC,        KC_LCBR,        KC_RCBR,                                        KC_BSPC,        _______,         _______,           _______,         _______,       _______,
                                                     _______, _______,                                 _______, _______
   ),
   [2] = LAYOUT_voyager(
     // KC_F1,          KC_F2,          KC_F3,          KC_F4,          KC_F5, KC_F6,                                   KC_F7,          KC_F8,          KC_F9,          KC_F10,         KC_F11,  KC_F12,
     _______,      _______,          _______,          _______,          _______,          _______,                                          _______,          _______,          _______,       KC_MINUS,     KC_EQUAL,    KC_GRAVE,
-    KC_CAPS, _______, KC_MS_BTN1,KC_MS_UP,KC_MS_BTN2,  KC_MS_WH_UP,                                 _______,     _______,        _______,          _______,         _______, KC_QUOTE,
-    _______, _______,KC_MS_LEFT,KC_MS_DOWN,  KC_MS_RIGHT,KC_MS_BTN3,                                 KC_MS_BTN1,   KC_MS_BTN1,   KC_MS_BTN2,        _______,       _______, _______,
-    _______, _______, _______, KC_MS_BTN4,  KC_MS_BTN5, KC_MS_WH_DOWN,                                _______, _______,_______,   _______, _______, _______,
+    KC_CAPS, KC_MS_BTN1, KC_MS_UP,KC_MS_BTN2,KC_MS_WH_UP,  _______,                                 _______,     _______,        _______,          _______,         _______, KC_QUOTE,
+    _______, KC_MS_LEFT,KC_MS_DOWN,KC_MS_RIGHT,  KC_MS_BTN3,_______,                                 KC_MS_BTN1,   KC_MS_BTN1,   KC_MS_BTN2,        _______,       _______, _______,
+    _______, _______, KC_MS_BTN4, KC_MS_BTN5,  KC_MS_WH_DOWN, _______,                                _______, _______,_______,   _______, _______, _______,
                                                     _______, _______,                                         _______, _______
   ),
   [3] = LAYOUT_voyager(
@@ -188,4 +188,3 @@ tap_dance_action_t tap_dance_actions[] = {
         [DANCE_0] = ACTION_TAP_DANCE_FN_ADVANCED(on_dance_0, dance_0_finished, dance_0_reset),
         [DANCE_1] = ACTION_TAP_DANCE_FN_ADVANCED(on_dance_1, dance_1_finished, dance_1_reset),
 };
-
