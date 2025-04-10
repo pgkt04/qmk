@@ -128,12 +128,12 @@ static int8_t move_unit(uint8_t axis) {
     }
 
     int16_t base_move = dir * MOUSEKEY_MOVE_DELTA * 2;
-
-    if (mousekey_frame < 2) { // first frame(s): initial keypress moves one pixel
+     
+    // first frame(s): initial keypress moves one pixel
+    if (mousekey_frame < 2) {
         mousekey_frame = 1;
-        unit           = base_move;
-    } else { // acceleration
-        // linear acceleration (is here for reference, but doesn't feel as good during use)
+        unit = base_move;
+    } else {
         unit = base_move + (MOUSEKEY_MOVE_DELTA * mk_max_speed * inertia / 2) / mk_time_to_max;
     }
 
