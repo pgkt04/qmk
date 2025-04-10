@@ -301,7 +301,6 @@
 
      // Apply deceleration to the magnitude of the velocity vector
      if (velocity_magnitude > 0) {
-         // PPY: increased friction when not pressing either key
          velocity_magnitude = (velocity_magnitude * (256 - friction)) / 256;
      }
 
